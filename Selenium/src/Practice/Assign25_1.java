@@ -10,11 +10,26 @@ import LaunchBrowser.ChromeBrowser;
 
 public class Assign25_1 {
 	public static void main(String[] args) {
-
-//		System.out.println("Enter Value To Open Browser : 1 - Chrome Browser and 2 - Edge Browser");
+		
+//		#Method 1
 		System.out.println("Enter chrome to open ChromeBrowser and edge to open EdgeBrowser");
 		Scanner sc = new Scanner(System.in);
+		WebDriver driver ;
+		String value = sc.nextLine();
 		
+		if (value.equalsIgnoreCase("chrome")) 
+			driver = new ChromeDriver();
+		
+		else if (value.equalsIgnoreCase("edge")) 
+			driver = new EdgeDriver();
+		
+		else
+			System.out.println("No Such Browser");
+		
+		
+//		#Method 2
+//		System.out.println("Enter Value To Open Browser : 1 - Chrome Browser and 2 - Edge Browser");
+//		Scanner sc = new Scanner(System.in);
 //		int value = sc.nextInt();
 //		switch (value) {
 //		case 1 : {
@@ -31,7 +46,9 @@ public class Assign25_1 {
 //		}
 		
 		
-
+//		#Method 3
+//		System.out.println("Enter chrome to open ChromeBrowser and edge to open EdgeBrowser");
+//		Scanner sc = new Scanner(System.in);
 //		String value = sc.nextLine();
 //		switch (value) {
 //		case "chrome" : {
@@ -45,20 +62,6 @@ public class Assign25_1 {
 //		default :
 //			System.out.println("Wrong Choice");
 //		}
-		
-		WebDriver driver ;
-		String value = sc.nextLine();
-		
-		if (value.equalsIgnoreCase("chrome")) 
-			driver = new ChromeDriver();
-		
-		else if (value.equalsIgnoreCase("edge")) 
-			driver = new EdgeDriver();
-		
-		else
-			System.out.println("No Such Browser");
-		
-		
 		
 		
 	} }
