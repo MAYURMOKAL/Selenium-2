@@ -52,6 +52,7 @@ public class CookiesPractice {
 			System.out.println(allCookies.size());
 			for (Cookie singleCookie : allCookies) {
 				System.out.println(singleCookie.getName());
+				System.out.println(singleCookie.getName());
 			}
 		}
 	}
