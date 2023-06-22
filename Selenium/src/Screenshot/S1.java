@@ -16,6 +16,6 @@ public class S1 {
 		WebElement username = driver.findElement(By.id("email"));
 		File screenshot = username.getScreenshotAs(OutputType.FILE);
 		System.out.println(screenshot);
-		
+		driver.close();
 	}
 }

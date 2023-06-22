@@ -11,5 +11,6 @@ public class GetCookieNamed {
 		 
 		 Cookie cooky = driver.manage().getCookieNamed("sb");
 		 System.out.println(cooky);
+		 driver.close();
 	}
 }

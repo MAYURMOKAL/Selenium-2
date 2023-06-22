@@ -13,5 +13,7 @@ public class Navigate_To {
 		
 		URL url = new URL("https://www.gmail.com/");
 		driver.navigate().to(url);  //  to(URL string)
+		
+		driver.close();
 	}
 }

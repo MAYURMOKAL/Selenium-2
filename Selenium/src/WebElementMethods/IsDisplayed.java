@@ -13,6 +13,5 @@ public static void main(String[] args) {
 	  WebElement username = driver.findElement(By.id("email"));
 	  System.out.println(username.isDisplayed());
 	  driver.close();	
-}
-
+	}
 }

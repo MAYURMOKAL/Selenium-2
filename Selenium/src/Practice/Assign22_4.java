@@ -9,5 +9,6 @@ public class Assign22_4 {
 		driver.get("https://www.flipkart.com/");
 		String title = driver.getTitle();
 		System.out.println(title);
+		driver.close();
 	}
 }

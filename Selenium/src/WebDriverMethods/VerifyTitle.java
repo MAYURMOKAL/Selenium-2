@@ -17,5 +17,7 @@ public class VerifyTitle {
 		}
 		else
 			System.out.println("FAIL");
+		
+		driver.close();
 	}
 }

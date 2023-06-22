@@ -9,5 +9,7 @@ public class GetCurrentUrl {
 		
 		driver.get("https://rb.gy/xqb7r");
 		System.out.println(driver.getCurrentUrl());
+		
+		driver.close();
 	}
 }

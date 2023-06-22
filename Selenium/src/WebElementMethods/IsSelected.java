@@ -13,5 +13,6 @@ public class IsSelected {
 		Thread.sleep(3000);
 		WebElement checkbox = driver.findElement(By.id("keepLoggedInCheckBox"));
 		System.out.println(checkbox.isSelected());
+		driver.close();
 	}
 }

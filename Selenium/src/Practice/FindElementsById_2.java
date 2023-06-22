@@ -12,6 +12,6 @@ public class FindElementsById_2 {
 		driver.get("https://www.fb.com");
 		driver.findElement(By.cssSelector("#pass"));
 		System.out.println("Element Identified");
-	
+		driver.close();
 	}
 }

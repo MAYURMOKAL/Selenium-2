@@ -12,5 +12,6 @@ public class AddCookie {
 		Cookie cooky=new Cookie("simple cookie","12345");
 		driver.manage().addCookie(cooky);
 		System.out.println(cooky);
+		driver.close();
 	}
 }

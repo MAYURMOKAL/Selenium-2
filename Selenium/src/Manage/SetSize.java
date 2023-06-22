@@ -13,5 +13,6 @@ public class SetSize {
 		driver.manage().window().setSize(d);
 		
 		System.out.println(driver.manage().window().getSize());   // To Know The Size Of Current Window
+		driver.close();
 	}
 }

@@ -54,6 +54,8 @@ public class CookiesPractice {
 				System.out.println(singleCookie.getName());
 				System.out.println(singleCookie.getName());
 			}
+			
+			driver.close();
 		}
 	}
 

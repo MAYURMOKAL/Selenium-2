@@ -15,5 +15,6 @@ public class GetRect {
 		System.out.println(username.getRect().y);
 		System.out.println(username.getRect().height);
 		System.out.println(username.getRect().width);
+		driver.close();
 	}
 }

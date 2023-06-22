@@ -17,5 +17,6 @@ public class Clear {
 		password.clear();
 		Thread.sleep(3000);
 		password.sendKeys("Hii");
+
 }
 }

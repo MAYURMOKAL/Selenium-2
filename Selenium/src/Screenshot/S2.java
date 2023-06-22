@@ -19,5 +19,6 @@ public class S2 {
 		File source = username.getScreenshotAs(OutputType.FILE);
 		File destination = new File("./screenshots/screenshot.png");
 		FileHandler.copy(source, destination);
+		driver.close();
 	}
 }

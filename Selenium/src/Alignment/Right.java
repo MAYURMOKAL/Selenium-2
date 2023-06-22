@@ -19,6 +19,7 @@ public class Right {
 	if(userX+userWidth==passX+passWidth)
 		System.out.println("Right Aligned");
 	else
-		System.out.println("Not Right Aligned");	
+		System.out.println("Not Right Aligned");
+	driver.close();
 }
 }

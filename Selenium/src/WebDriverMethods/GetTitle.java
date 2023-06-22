@@ -11,5 +11,7 @@ public class GetTitle {
 		driver.get("https://facebook.com");
 		String title = driver.getTitle();
 		System.out.println(title);
+		
+		driver.close();
 	}
 }

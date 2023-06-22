@@ -8,5 +8,7 @@ public class GetPageSource {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
 		System.out.println(driver.getPageSource());
+		
+		driver.close();
 	}
 }

@@ -38,6 +38,8 @@ public class CookiesScenario4 {
 		System.out.println(allcookies.size());
 		for (Cookie singlecookie : allcookies) {
 			System.out.println(singlecookie.getName());
+			
+			driver.close();
 		}
 	}
 }

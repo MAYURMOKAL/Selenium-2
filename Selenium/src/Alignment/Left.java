@@ -26,5 +26,6 @@ public class Left {
 			System.out.println("No Left Aligned");
 		System.out.println(emailX);
 		System.out.println(passX);
+		driver.close();
 	}
 }

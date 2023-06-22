@@ -14,5 +14,7 @@ public class VerifyURL {
 			System.out.println("PASS");
 		else
 			System.out.println("FAIL");
+		
+		driver.close();
 	}
 }

@@ -26,5 +26,6 @@ public class DeleteAllCookies {
 		for (Cookie singleCookie : allCookies) {
 			System.out.println(singleCookie.getName());
 		}
+		driver.close();
 	}
 }

@@ -12,5 +12,6 @@ public class Get {
 		
 		driver.get("https://demo.actitime.com/login.do");
 		
+		driver.close();
 	}
 }

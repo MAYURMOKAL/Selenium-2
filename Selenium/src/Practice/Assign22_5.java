@@ -11,5 +11,6 @@ public class Assign22_5 {
 		driver.get("https://www.amazon.com/");
 		String title = driver.getTitle();
 		System.out.println(title);
+		driver.close();
 	}
 }

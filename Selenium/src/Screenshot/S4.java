@@ -23,5 +23,6 @@ public class S4 {
 		File source = username.getScreenshotAs(OutputType.FILE);
 		File destination = new File("./screenshots/screenshot "+todate+".png");
 		FileHandler.copy(source, destination);
+		driver.close();
 	}
 }

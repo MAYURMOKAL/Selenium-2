@@ -11,5 +11,6 @@ public class Assign22_2 {
 		driver.get("https://chat.openai.com/");
 		String title = driver.getTitle();
 		System.out.println(title);
+		
 	}
 }

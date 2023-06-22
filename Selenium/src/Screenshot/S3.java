@@ -22,5 +22,6 @@ public class S3 {
 		File source = username.getScreenshotAs(OutputType.FILE);
 		File destination = new File("./screenshots/screenshot"+randomNumber+".png");
 		FileHandler.copy(source, destination);
+		driver.close();
 	}
 }

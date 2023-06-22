@@ -13,5 +13,6 @@ public class SetPosition {
 		driver.manage().window().setPosition(p);
 
 		System.out.println(driver.manage().window().getPosition()); // To Know The Position Of Current Window
+		driver.close();
 	}
 }

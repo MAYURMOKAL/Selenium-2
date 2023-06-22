@@ -9,6 +9,6 @@ public class Assign22_1 {
 		driver.get("https://facebook.com");
 		String title = driver.getTitle();
 		System.out.println(title);
-		
+		driver.close();
 	}
 }

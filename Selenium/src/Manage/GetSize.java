@@ -15,5 +15,6 @@ public class GetSize {
 		
 		Dimension value = driver.manage().window().getSize();
 		System.out.println(value);
+		driver.close();
 	}
 }

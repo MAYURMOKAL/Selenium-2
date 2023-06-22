@@ -12,5 +12,6 @@ public class GetCssValue {
 		driver.get("https://www.amazon.in");
 		WebElement signIn = driver.findElement(By.linkText("Sign in securely"));
 		System.out.println(signIn.getCssValue("display"));
+		driver.close();
 	}
 }

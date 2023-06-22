@@ -16,5 +16,6 @@ public class IsEnabled {
 		WebElement login = driver.findElement(By.xpath("//button[@type='submit']"));
 		
 		System.out.println(login.isEnabled());
+		driver.close();
 	}
 }

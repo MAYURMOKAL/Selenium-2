@@ -25,6 +25,6 @@ public class CookiesScenario1 {
 		System.out.println(allCookies.size());
 		System.out.println(driver.manage().getCookies());
 		
-		
+		driver.close();
 	}
 }

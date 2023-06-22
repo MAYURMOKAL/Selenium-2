@@ -9,5 +9,6 @@ public class Assign22_3 {
 		driver.get("https://play.google.com/store/");
 		String title = driver.getTitle();
 		System.out.println(title);
+		driver.close();
 	}
 }

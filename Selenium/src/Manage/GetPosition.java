@@ -15,6 +15,6 @@ public class GetPosition {
 		
 		Point value = driver.manage().window().getPosition();
 		System.out.println(value);
-		
+		driver.close();
 	}
 }

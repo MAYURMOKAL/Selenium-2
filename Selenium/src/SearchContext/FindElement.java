@@ -11,5 +11,6 @@ public class FindElement {
 		driver.get("https://www.fb.com/");
 		driver.findElement(By.tagName("button"));
 		System.out.println("Element Identified");
+		driver.close();
 	}
 }

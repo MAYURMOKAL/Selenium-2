@@ -22,9 +22,9 @@ public class CookiesScenario2 {
 		
 		allcookies = driver.manage().getCookies();
 		System.out.println(allcookies.size());
-		for (Cookie singlecookie : allcookies) {
+		for (Cookie singlecookie : allcookies) 
 			System.out.println(singlecookie.getName());
-		}
-
+		
+		driver.close();
 	}
 }
