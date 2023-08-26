@@ -11,7 +11,7 @@ public class DeleteCookieNamed {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.fb.com");
 		
-		Cookie cooky= new Cookie("Selenium", "1111");
+		Cookie cooky = new Cookie("Selenium", "1111");
 		driver.manage().addCookie(cooky);
 		
 		Set<Cookie> allCookies = driver.manage().getCookies();
