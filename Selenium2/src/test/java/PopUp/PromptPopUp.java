@@ -10,7 +10,7 @@ public static void main(String[] args) throws InterruptedException {
 	WebDriver driver = new ChromeDriver();
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-	driver.get("C:\\Users\\mayur\\Desktop\\PromptPopUp.html");
+	driver.get("C:\\Users\\mayur\\Desktop\\SeleniumFile\\PromptPopUp.html");
 	
 	Thread.sleep(3000);
 	driver.switchTo().alert().sendKeys("12345678");

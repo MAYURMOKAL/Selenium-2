@@ -13,7 +13,7 @@ public class DoubleClick {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-		driver.get("C:/Users/mayur/Desktop/doubleclickbutton.html");
+		driver.get("C:/Users/mayur/Desktop/SeleniumFile/doubleclickbutton.html");
 		WebElement dblClkButton = driver.findElement(By.id("doubleclick"));
 		Actions actions = new Actions(driver);
 		actions.doubleClick(dblClkButton).perform();

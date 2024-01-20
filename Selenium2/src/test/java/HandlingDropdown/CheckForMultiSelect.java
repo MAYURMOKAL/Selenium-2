@@ -12,7 +12,7 @@ public class CheckForMultiSelect {
 	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("C:/Users/mayur/Desktop/MultiSelectDropdown.html");
+		driver.get("C:/Users/mayur/Desktop/SeleniumFile/MultiSelectDropdown.html");
 // Identify the Dropdown
 		WebElement dropdown = driver.findElement(By.id("cars"));
 // Create the Select Class Object
